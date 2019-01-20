@@ -1,5 +1,8 @@
-body {margin:0;
- font-family: Arial, Helvetica, sans-serif;}
+body {
+    margin:0;
+font-family: Arial, Helvetica, sans-serif;
+ 
+}
 
 ul {
   list-style-type: none;
@@ -21,8 +24,7 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-
- 
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
@@ -32,3 +34,73 @@ li a:hover:not(.active) {
 .active {
   background-color: violet;
 }
+
+div{
+    padding:20px;
+    margin-top:30px;
+    background-color:white;
+    height:1500px;
+    animation: bounce .5s alternate ;
+}
+
+img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 30px;
+    
+   
+  
+}
+
+h1{ 
+   text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 119px;
+}
+
+form{
+    position:absolute;
+   top:40%;
+   left:55%;
+
+   margin-left:-150px; /* -largeur/2 */
+   margin-top:-100px; /* -hauteur/2 */
+  
+}
+
+video{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+  
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
